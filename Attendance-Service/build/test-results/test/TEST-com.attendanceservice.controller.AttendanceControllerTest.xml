@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.attendanceservice.controller.AttendanceControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-24T04:50:04" hostname="ADMIN" time="0.26">
+  <properties/>
+  <testcase name="shouldBeAbleToGetAttendanceOfAllStudents()" classname="com.attendanceservice.controller.AttendanceControllerTest" time="0.26"/>
+  <system-out><![CDATA[10:20:01.895 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.attendanceservice.controller.AttendanceControllerTest]: AttendanceControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:20:02.033 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.attendanceservice.AttendanceServiceApplication for test class com.attendanceservice.controller.AttendanceControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-09-24T10:20:02.556+05:30  INFO 17392 --- [Attendance-Service] [    Test worker] c.a.controller.AttendanceControllerTest  : Starting AttendanceControllerTest using Java 17.0.11 with PID 17392 (started by sudhir in D:\EY Practice\Attendance-Service)
+2024-09-24T10:20:02.558+05:30  INFO 17392 --- [Attendance-Service] [    Test worker] c.a.controller.AttendanceControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T10:20:04.651+05:30  INFO 17392 --- [Attendance-Service] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-09-24T10:20:04.651+05:30  INFO 17392 --- [Attendance-Service] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-09-24T10:20:04.655+05:30  INFO 17392 --- [Attendance-Service] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-09-24T10:20:04.700+05:30  INFO 17392 --- [Attendance-Service] [    Test worker] c.a.controller.AttendanceControllerTest  : Started AttendanceControllerTest in 2.585 seconds (process running for 3.739)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
